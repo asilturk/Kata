@@ -3,5 +3,6 @@
     <pages>
         <page name='expressionMatter'/>
         <page name='Sum of positive '/>
+        <page name='Flatten and sort an array'/>
     </pages>
 </playground>
