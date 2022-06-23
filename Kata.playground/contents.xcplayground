@@ -4,5 +4,6 @@
         <page name='expressionMatter'/>
         <page name='Sum of positive '/>
         <page name='Flatten and sort an array'/>
+        <page name='Find the first non-consecutive number'/>
     </pages>
 </playground>
