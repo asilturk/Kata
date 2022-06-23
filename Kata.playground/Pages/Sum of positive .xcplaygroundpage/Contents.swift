@@ -14,6 +14,9 @@ func sumOfPositives (_ numbers: [Int] ) -> Int {
     
     // Alternatives
     return numbers.reduce (0) {$0 + max($1, 0)}
+    return numbers.lazy.filter { $0 > 0 }.reduce(0, +)
+    return numbers.reduce(0, { $0 + ($1 < 0 ? 0 : $1) })
+    return numbers.reduce(0) { $1 >= 0 ? $0 + $1 : $0 }
     
 }
 
