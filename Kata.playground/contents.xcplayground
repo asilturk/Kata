@@ -11,5 +11,6 @@
         <page name='Remove Element'/>
         <page name='Untitled Page'/>
         <page name='Implement str'/>
+        <page name='Search Insert Position'/>
     </pages>
 </playground>
