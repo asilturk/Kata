@@ -36,6 +36,12 @@ class Solution {
         let result = n1 + n2
         nums1 = result.sorted()
     }
+    
+    func merge_alternative(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        let result = nums1[0..<m] + nums2[0..<n]
+        result.sorted()
+    }
+    
 }
 
 let s = Solution()
