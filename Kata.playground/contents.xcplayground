@@ -12,5 +12,8 @@
         <page name='Untitled Page'/>
         <page name='Implement str'/>
         <page name='Search Insert Position'/>
+        <page name='lengthOfLastWord'/>
+        <page name='MergeSortedArray'/>
+        <page name='Roman'/>
     </pages>
 </playground>
